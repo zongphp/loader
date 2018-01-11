@@ -1,12 +1,15 @@
 {
   "name": "zongphp/loader",
-  "description": "Loader组件提供类别名、自定义命名空间、文件自动导入等功能的组件。",
+  "description": "类库加载管理组件",
+  "keywords": [
+    "loader",
+    "类库加载"
+  ],
   "license": "MIT",
-  "type": "project",
   "minimum-stability": "stable",
   "require": {
     "php": ">=5.4.0",
-    "zongphp/config": "~1.0"
+    "zongphp/config": "~2.0"
   },
   "autoload": {
     "files": [
